@@ -133,6 +133,22 @@
     Mode_Label=Tryb:
     Difficulty_Label=Poziom trudności:
 
+	Difficulty_Scale_Stat=Skala planet: 1:%scale%
+	Difficulty_Isp_Stat=Wydajności: %value%x
+	Difficulty_Dry_Mass_Stat=Masa zbiorników bez paliwa: %value%x
+	Difficulty_Engine_Mass_Stat=Masa silników: %value%x
+
+[Teleport Menu]
+	Teleport_Cheat=Teleport
+	Teleport_Action=Teleportuj
+	Planet_Select=Planeta:
+	Surface_Teleport_Type=Powierzchnia
+	Orbit_Teleport_Type=Orbita
+	Teleport_Longitude=Kąt
+	Teleport_Height=Wysokość (%unit%):
+	Teleport_Orbit_Prograde=W prawo
+	Teleport_Orbit_Retrograde=W lewo
+
 [Saving]
 # Blueprint stuff
     Blueprints_Menu_Title=Projekty
@@ -285,6 +301,13 @@
     No_Gravity_Name=Brak grawitacji
     No_Heat_Damage_Name=Brak uszkodzeń od ciepła
     No_Burn_Marks_Name=Brak śladów spalenia
+	Refill_Fuel_Tanks=Заправить баки
+	Unlock_Cheats_Button=Włącz cheaty
+	Unlock_Cheats_Warning=Włączenie cheatów spowoduje konwersję świata na tryb Piaskownicy.
+	Unlock_Cheats_Warning=
+	Unlock_Cheats_Warning=Tej akcji nie można cofnąć
+	Unlock_Cheats_Warning=
+	Unlock_Cheats_Warning=Czy na pewno tego chcesz?
 
 [Tutorials]
 
@@ -638,6 +661,25 @@
     Msg_Parachute_Half_Deployed=Spadochron częściowo rozłożony
     Msg_Parachute_Fully_Deployed=Spadochron w pełni rozłożony
     Msg_Parachute_Cut=Spadochron odcięty
+
+[Part Pick Categories]
+	Part_Pick_Category_Aero=Aero
+	Part_Pick_Category_Parachutes=Spatochrony
+	Part_Pick_Category_Engines=Silniki
+	Part_Pick_Category_Structural=Struktura
+	Part_Pick_Category_Utility=Różne
+	Part_Pick_Category_Control=Kontrola
+	Part_Pick_Category_Landing=Lądowanie
+	Part_Pick_Category_Electricity=Elektryczność
+	Part_Pick_Category_Fuel=Zbiorniki
+	Part_Pick_Category_Fuel=paliwa
+	Part_Pick_Category_Fairings=Owiewki
+	Part_Pick_Category_Wheels=Koła
+	Part_Pick_Category_Docking=Dokowanie
+	Part_Pick_Category_Heat_Protection=Osłony
+	Part_Pick_Category_Heat_Protection=termiczne
+	Part_Pick_Category_Staging=Stopnie
+	Part_Pick_Category_Mounts=Mocowania
 
 [Planets]
     Sun{0}=Słońce
