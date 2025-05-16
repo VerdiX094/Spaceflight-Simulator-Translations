@@ -177,21 +177,17 @@
     Importing_In_Progress=Importowanie...
 
 # filetype (injected)
-    Blueprint{0}=Konstrukcja
-    Blueprint{1}=konstrukcji
-    Blueprint{2}=konstrukcja
-    Blueprint{3}=konstrukcję
-    Blueprint{4}=Nowa konstrukcja
+    Blueprint{0}=Projekt
+    Blueprint{1}=projektu
+    Blueprint{2}=projekt
     Quicksave{0}=Szybki zapis
     Quicksave{1}=szybkiego zapisu
     Quicksave{2}=szybki zapis
-    Quicksave{3}=szybki zapis
-    Quicksave{4}=Nowy szybki zapis
 
 # Ask overwrite menu
     File_Already_Exists=%filetype{0}% o tej nazwie już istnieje
-    Overwrite_File=Zastąp %filetype{3}%
-    New_File=%filetype{4}%
+    Overwrite_File=Zastąp %filetype{2}%
+    New_File=Nowy %filetype{2}%
 
 # Load failure
     Load_Failed=Nie udało się wczytać %filetype{1}% z %filepath%
@@ -264,21 +260,21 @@
     PlanetsExpansion_Conclusion=byś je odkrył/a!
 
 [Sharing]
-    Share_Button=Udostępnij konstrukcję
-    Upload_Blueprint_PC=Prześlij konstrukcję
-    Download_Blueprint_PC=Pobierz konstrukcję
+    Share_Button=Udostępnij
+    Upload_Blueprint_PC=Prześlij projekt
+    Download_Blueprint_PC=Pobierz projekt
     Share_Button_PC=Udostępnij
     Download_Confirm=Pobierz
-    URL_Field_TextBox=URL konstrukcji
-    Empty_Upload=Nie można przesłać pustej konstrukcji
+    URL_Field_TextBox=URL projektu
+    Empty_Upload=Nie można przesłać pustej projektu
     Uploading_Message=Przesyłanie...
-    Upload_Fail=Nie udało się przesłać konstrukcji
-    Copied_URL_To_Clipboard=Skopiowano URL konstrukcji do schowka
-    Sharing_Enter_Prompt=Wybierz świat, do którego chcesz wczytać konstrukcję
-    Confirm_Download_Button=Pobierz konstrukcję
+    Upload_Fail=Nie udało się przesłać projektu
+    Copied_URL_To_Clipboard=Skopiowano URL projektu do schowka
+    Sharing_Enter_Prompt=Wybierz świat, do którego chcesz wczytać projekt
+    Confirm_Download_Button=Pobierz projekt
     Downloading_Message=Pobieranie...
-    Download_Fail=Nie udało się pobrać konstrukcji
-    URL_Invalid=Nieprawidłowy URL konstrukcji
+    Download_Fail=Nie udało się pobrać projektu
+    URL_Invalid=Nieprawidłowy URL projektu
     Sharing_Connect_Fail=Nie udało się połączyć z serwerami udostępniania
 
 [Settings Mobile]
@@ -671,7 +667,7 @@
 	Part_Pick_Category_Utility=Różne
 	Part_Pick_Category_Control=Kontrola
 	Part_Pick_Category_Landing=Lądowanie
-	Part_Pick_Category_Electricity=Elektryczność
+	Part_Pick_Category_Electricity=Elektryczne
 	Part_Pick_Category_Fuel=Zbiorniki
 	Part_Pick_Category_Fuel=paliwa
 	Part_Pick_Category_Fairings=Owiewki
