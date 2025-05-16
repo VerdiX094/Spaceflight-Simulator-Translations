@@ -181,23 +181,24 @@
     Blueprint{1}=konstrukcji
     Blueprint{2}=konstrukcja
     Blueprint{3}=konstrukcję
-    Blueprint{4}=a konstrukcja
+    Blueprint{4}=Nowa konstrukcja
     Quicksave{0}=Szybki zapis
     Quicksave{1}=szybkiego zapisu
     Quicksave{2}=szybki zapis
     Quicksave{3}=szybki zapis
-    Quicksave{4}=y szybki zapis
+    Quicksave{4}=Nowy szybki zapis
 
 # Ask overwrite menu
     File_Already_Exists=%filetype{0}% o tej nazwie już istnieje
     Overwrite_File=Zastąp %filetype{3}%
-    New_File=Now%filetype{4}%
+    New_File=%filetype{4}%
 
 # Load failure
     Load_Failed=Nie udało się wczytać %filetype{1}% z %filepath%
 
 [Purchasing]
     Open_Shop_Menu=Rozszerzenia
+    Open_Shop_Menu_2=Sklep
     Parts_Expansion=Rozszerzenie części
     Redstone_Atlas_Pack=Pakiet Redstone Atlas
     Skins_Expansion=Rozszerzenie skórek
@@ -287,10 +288,10 @@
     FPS_Name=FPS
     Language_Name=Język
     Menu_Scale=Skala interfejsu
-    Menu_Opacity=Przezroczystość interfejsu
+    Menu_Opacity=Nieprzezroczystość interfejsu
     Shakes_Name=Trzęsienie kamery
     Orbit_Line_Count=Ilość linii orbit
-    Anti_Aliasing=Wygładzanie krawędzi (FXAA)
+    Anti_Aliasing=Wygładzanie krawędzi
 
 [Cheats]
     Infinite_Build_Area_Name=Nieskończony obszar budowy
@@ -301,7 +302,7 @@
     No_Gravity_Name=Brak grawitacji
     No_Heat_Damage_Name=Brak uszkodzeń od ciepła
     No_Burn_Marks_Name=Brak śladów spalenia
-	Refill_Fuel_Tanks=Заправить баки
+	Refill_Fuel_Tanks=Napełnij zbiorniki
 	Unlock_Cheats_Button=Włącz cheaty
 	Unlock_Cheats_Warning=Włączenie cheatów spowoduje konwersję świata na tryb Piaskownicy.
 	Unlock_Cheats_Warning=
@@ -362,7 +363,7 @@
     Too_Heavy=%mass%
     Too_Heavy=%thrust%
 
-    Launch_Anyway_Button=Uruchom mimo to
+    Launch_Anyway_Button=Startuj mimo to
 
     Launch_Horizontally_Ask=Wystartować poziomo?
     Launch_Horizontally_Confirm=Start poziomo
@@ -497,7 +498,7 @@
     Timewarp_To_Button=Przyspiesz czas tutaj
 
 [Units]
-    Thrust_To_Weight_Ratio=Stosunek ciągu do masy: %value%
+    Thrust_To_Weight_Ratio=Ciąg/masa: %value%
     Mass=Masa: %value%t
     Thrust=Ciąg: %value%t
     Burn_Time=Czas pracy silnika: %value%s
@@ -527,10 +528,10 @@
 
 [Part Categories]
     Basic_Parts=Podstawowe
-    Six_Wide_Parts=6 szerokości (3m)
-    Eight_Wide_Parts=8 szerokości (4m)
-    Ten_Wide_Parts=10 szerokości (5m)
-    Twelve_Wide_Parts=12 szerokości (6m)
+    Six_Wide_Parts=Szerokość: 6
+    Eight_Wide_Parts=Szerokość: 8
+    Ten_Wide_Parts=Szerokość: 10
+    Twelve_Wide_Parts=Szerokość: 12
     Engine_Parts=Silniki
     Aerodynamics_Parts=Aerodynamika
     Fairings_Parts=Owiewki
@@ -664,7 +665,7 @@
 
 [Part Pick Categories]
 	Part_Pick_Category_Aero=Aero
-	Part_Pick_Category_Parachutes=Spatochrony
+	Part_Pick_Category_Parachutes=Spadochrony
 	Part_Pick_Category_Engines=Silniki
 	Part_Pick_Category_Structural=Struktura
 	Part_Pick_Category_Utility=Różne
