@@ -250,7 +250,7 @@
 
 # Skins Expansion
     SkinsExpansion_Tanks=Pokoloruj części w różnorodne skórki!
-    SkinsExpansion_Interstages=Koloruj wszystko, od przejściówek
+    SkinsExpansion_Interstages=Koloruj wszystko, od separatorów
     SkinsExpansion_Nosecones=po stożki nosowe
     SkinsExpansion_Fairings=A nawet owiewki
 
@@ -567,8 +567,8 @@
 
     Fuel_Tank_Name{0}=Zbiornik paliwa
     Fuel_Tank_Name{1}=zbiornika paliwa
-    Separator_Name{0}=Separator stopnia
-    Separator_Name{1}=separatora stopnia
+    Separator_Name{0}=Separator
+    Separator_Name{1}=separatora
     Side_Separator_Name{0}=Separator boczny
     Side_Separator_Name{1}=separatora bocznego
     Structural_Part_Name{0}=Część strukturalna
