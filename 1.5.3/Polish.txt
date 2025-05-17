@@ -100,10 +100,10 @@
     Select_Solar_System__NotFound=Nie znaleziono układu słonecznego:
     Select_Solar_System__NotFound=%system%
     Select_Solar_System__NotFound=
-    Select_Solar_System__NotFound=Wybierz nowy układ słoneczny
+    Select_Solar_System__NotFound=Wybierz inny układ słoneczny
 
     Default_Solar_System=Układ słoneczny (domyślny)
-    Custom_Solar_System=%name% (niestandardowy)
+    Custom_Solar_System=%name% (własny)
 
 # World info
     World_Mode_Name=Tryb: %value%
@@ -111,7 +111,7 @@
     Mode_Challenge=Wyzwanie
     Mode_Career=Kariera
 
-    Allow_Cheats_Name=Cheaty dozwolone: %value%
+    Allow_Cheats_Name=Cheaty: %value%
     Allow_Cheats_Label=Zezwól na cheaty
 
     Allow_Quicksaves_Name=Szybkie zapisy: %value%
@@ -133,8 +133,8 @@
     Mode_Label=Tryb:
     Difficulty_Label=Poziom trudności:
 
-	Difficulty_Scale_Stat=Skala planet: 1:%scale%
-	Difficulty_Isp_Stat=Wydajności: %value%x
+	Difficulty_Scale_Stat=Skala układu słonecznego: 1:%scale%
+	Difficulty_Isp_Stat=Wydajność silników: %value%x
 	Difficulty_Dry_Mass_Stat=Masa zbiorników bez paliwa: %value%x
 	Difficulty_Engine_Mass_Stat=Masa silników: %value%x
 
@@ -204,8 +204,8 @@
     Builder_Bundle=Pakiet Budowniczego
     Sandbox_Bundle=Pakiet Piaskownicy
     Full_Bundle=Kompletny pakiet
-    Upgrade_To_Full_Bundle=Uaktualnij do pełnego pakietu
-    Mac_Full_Version=Wersja pełna
+    Upgrade_To_Full_Bundle=Ulepsz do pełnego pakietu
+    Mac_Full_Version=Pełna wersja
 
     Not_All_Parts_Are_Owned=Nie posiadasz wszystkich części
     Not_All_Parts_Are_Owned=Wyłączono nieposiadane części
@@ -225,13 +225,13 @@
     Timed_Sale_Text=%product_name% -%sale_percent%
     Timed_Sale_Text=%time_left%
 
-    Time_Upgrade_Text=Uaktualnij do %product_name% -%sale_percent%
+    Time_Upgrade_Text=Ulepsz do %product_name% -%sale_percent%
     Time_Upgrade_Text=%time_left%
 
     Purchase_Thanks_Msg=Zakupiono: %product%
     Purchase_Thanks_Msg=
     Purchase_Thanks_Msg=Dziękujemy za wsparcie!
-    Purchase_Thanks_Msg=Teraz leć i odkrywaj gwiazdy!
+    Purchase_Thanks_Msg=A teraz leć i odkrywaj gwiazdy!
 
     Owned=%product% (Posiadane)
 
@@ -252,8 +252,8 @@
     SkinsExpansion_Fairings=A nawet owiewki
 
 # Planets Expansion
-    PlanetsExpansion_Jupiter=Odkrywaj Jowisza i jego cztery księżyce!
-    PlanetsExpansion_Callisto=Od pokrytej kraterami powierzchni Kallisto!
+    PlanetsExpansion_Jupiter=Odkryj Jowisza i jego cztery księżyce!
+    PlanetsExpansion_Callisto=Od usianej kraterami powierzchni Kallisto!
     PlanetsExpansion_Europa=Po rozległe lodowe równiny Europy!
 
     PlanetsExpansion_Conclusion=Odległe światy czekają na Ciebie,
@@ -266,7 +266,7 @@
     Share_Button_PC=Udostępnij
     Download_Confirm=Pobierz
     URL_Field_TextBox=URL projektu
-    Empty_Upload=Nie można przesłać pustej projektu
+    Empty_Upload=Nie można udostępnić pustego projektu
     Uploading_Message=Przesyłanie...
     Upload_Fail=Nie udało się przesłać projektu
     Copied_URL_To_Clipboard=Skopiowano URL projektu do schowka
@@ -293,8 +293,8 @@
     Infinite_Build_Area_Name=Nieskończony obszar budowy
     Part_Clipping_Name=Przenikanie części
     Infinite_Fuel_Name=Nieskończone paliwo
-    No_Atmospheric_Drag_Name=Brak oporu atmosferycznego
-    No_Collision_Damage_Name=Brak uszkodzeń po kolizji
+    No_Atmospheric_Drag_Name=Brak oporu powietrza
+    No_Collision_Damage_Name=Brak uszkodzeń od kolizji
     No_Gravity_Name=Brak grawitacji
     No_Heat_Damage_Name=Brak uszkodzeń od ciepła
     No_Burn_Marks_Name=Brak śladów spalenia
@@ -315,7 +315,7 @@
     Tut_Part_Info=informacje o części
 
     Tut_Use_Part=Kliknij części, aby je użyć
-    Tut_Ignition=Start!
+    Tut_Ignition=Zapłon!
     Tut_Throttle=Steruj ciągiem
 
 [Hub]
@@ -433,7 +433,7 @@
     Failure_Cause=PRZYCZYNA NIEPOWODZENIA:
     Failure_Crash_Into_Rocket=Zderzenie z inną rakietą
     Failure_Crash_Into_Terrain=Zderzenie z powierzchnią %planet{1}%
-    Failure_Burn_Up=Spalono podczas ponownego wejścia
+    Failure_Burn_Up=Spalenie podczas wejścia w atmosferę
 
 [End mission menu]
     Recover_Rocket=Odzyskaj
@@ -453,8 +453,8 @@
 
     Restart_Mission_To_Launch=Cofnij do startu
     Restart_Mission_To_Build=Cofnij do budowy
-    Revert_30_Secs=Cofnij 30 sek
-    Revert_3_Min=Cofnij 3 min
+    Revert_30_Secs=Cofnij 30 sek.
+    Revert_3_Min=Cofnij 3 min.
 
 # End mission menu
     End_Challenges_Title=Wyzwania:
@@ -488,7 +488,7 @@
     Cannot_Timewarp_Below=Nie można przyspieszyć czasu powyżej %speed%x poniżej %height%
     Cannot_Timewarp_While_Moving_On_Surface=Nie można przyspieszyć czasu powyżej %speed%x podczas ruchu po powierzchni
     Cannot_Timewarp_While_Accelerating=Nie można przyspieszyć czasu powyżej %speed%x podczas przyspieszania
-    Cannot_Use_Part_While_Timewarping=Nie można użyć %part{1}% podczas przyspieszenia czasu
+    Cannot_Use_Part_While_Timewarping=Nie można użyć %part{1}% podczas przyspieszania czasu
     Cannot_Turn_While_Timewarping=Nie można obracać podczas przyspieszania czasu
 
     Timewarp_To_Button=Przyspiesz czas tutaj
@@ -543,17 +543,17 @@
     Parachute_Name{1}=spadochronu
 
     Kolibri_Engine_Name{0}=Silnik Kolibri
-    Kolibri_Engine_Name{1}=silnika kolibri
+    Kolibri_Engine_Name{1}=silnika Kolibri
     Hawk_Engine_Name{0}=Silnik Hawk
-    Hawk_Engine_Name{1}=silnika hawk
+    Hawk_Engine_Name{1}=silnika Hawk
     Valiant_Engine_Name{0}=Silnik Valiant
-    Valiant_Engine_Name{1}=silnika valiant
+    Valiant_Engine_Name{1}=silnika Valiant
     Titan_Engine_Name{0}=Silnik Titan
-    Titan_Engine_Name{1}=silnika titan
+    Titan_Engine_Name{1}=silnika Titan
     Frontier_Engine_Name{0}=Silnik Frontier
-    Frontier_Engine_Name{1}=silnika frontier
+    Frontier_Engine_Name{1}=silnika Frontier
     Peregrine_Engine_Name{0}=Silnik Peregrine
-    Peregrine_Engine_Name{1}=silnika peregrine
+    Peregrine_Engine_Name{1}=silnika Peregrine
     Ion_Engine_Name{0}=Silnik jonowy
     Ion_Engine_Name{1}=silnika jonowego
     RCS_Thruster_Name{0}=Silnik RCS
@@ -570,8 +570,8 @@
     Side_Separator_Name{1}=separatora bocznego
     Structural_Part_Name{0}=Część strukturalna
     Structural_Part_Name{1}=części strukturalnej
-    Landing_Leg_Name{0}=Noga lądująca
-    Landing_Leg_Name{1}=nogi lądującej
+    Landing_Leg_Name{0}=Noga do lądowania
+    Landing_Leg_Name{1}=nogi do lądowania
     Aerodynamic_Nose_Cone_Name{0}=Stożek aerodynamiczny
     Aerodynamic_Nose_Cone_Name{1}=stożka aerodynamicznego
     Aerodynamic_Fuselage_Name{0}=Kadłub aerodynamiczny
@@ -597,16 +597,16 @@
     Capsule_Description=Mała kapsuła mieszcząca jednego astronautę
     Probe_Description=Bezzałogowa sonda do misji jednokierunkowych
     Parachute_Description=Spadochron do lądowania
-    Fuel_Tank_Description=Zbiornik paliwa z płynnym paliwem i tlenem
+    Fuel_Tank_Description=Zbiornik paliwa z ciekłym paliwem i tlenem
     Separator_Description=Separator pionowy, odczepia puste stopnie
     Side_Separator_Description=Separator poziomy, odczepia boczne boostery
-    Landing_Leg_Description=Rozkładana i chowana noga do lądowania na powierzchni księżyców i planet
+    Landing_Leg_Description=Rozkładana noga do lądowania na powierzchni księżyców i planet
     Structural_Part_Description=Lekka i wytrzymała część strukturalna
     Hawk_Engine_Description=Silnik o dużym ciągu i niskiej wydajności, zwykle używany w pierwszym stopniu rakiety
     Titan_Engine_Description=Silnik o dużym ciągu i niskiej wydajności, zwykle używany w pierwszym stopniu rakiety
     Valiant_Engine_Description=Wysoka wydajność, niski ciąg. Używany tam, gdzie ciąg nie jest priorytetem
     Frontier_Engine_Description=Wysoka wydajność, niski ciąg. Używany tam, gdzie ciąg nie jest priorytetem
-    Kolibri_Engine_Description=Bardzo mały silnik do lądowników
+    Kolibri_Engine_Description=Niewielki silnik do lądowników
     Ion_Engine_Description=Silnik o niskim ciągu, ale ogromnej sprawności
     RCS_Thruster_Description=Zestaw małych silniczków kierunkowych, przeznaczonych do dokowania
 
@@ -621,7 +621,7 @@
     RTG_Description=Radioizotopowy generator termoelektryczny (RTG)
     Rover_Wheel_Description=Koło łazika do jazdy po powierzchni planet
     Docking_Port_Description=Port dokujący do łączenia pojazdów
-    Heat_Shield_Description=Odporna na wysoką temperaturę osłona do wejścia w atmosferę
+    Heat_Shield_Description=Odporna na wysoką temperaturę osłona termiczna
     Fuel_Pipe_Description=Rura do przesyłu paliwa
 
 [Modules]
@@ -635,8 +635,8 @@
     State_Off{0}=wył.
 
     Engine_Module_State=Silnik %state{0}%
-    Engine_On_Label=Silnik włączony
-    Gimbal_On_Label=Gimbal włączony
+    Engine_On_Label=Silnik wł.
+    Gimbal_On_Label=Gimbal wł.
 
     Msg_RCS_Module_State=RCS %state{0}%
 
@@ -738,29 +738,29 @@
     Maxwell_Montes=Maxwell Montes
 
 [Challenges]
-    Liftoff_Title=Start
+    Liftoff_Title=Zapłon!
     Liftoff=Wystartuj i bezpiecznie wyląduj
 
     Reach10km_Title=Osiągnij 10 km
     Reach10km=Osiągnij 10 km i bezpiecznie wyląduj
 
-    ReachSpace_Title=Osiągnij przestrzeń kosmiczną
-    ReachSpace=Osiągnij %height%, przetrwaj wejście i bezpiecznie wyląduj
+    ReachSpace_Title=Linia Karmana
+    ReachSpace=Osiągnij %height%, przetrwaj ponowne wejście w atmosferę i bezpiecznie wyląduj
 
     Land100kmDownrange_Title=Wyląduj 100 km dalej
     Land100kmDownrange=Wyląduj co najmniej 100 km od platformy startowej
 
-    ReachLowEarthOrbit_Title=Osiągnij niską orbitę Ziemi
-    ReachLowEarthOrbit=Osiągnij niską orbitę Ziemi i bezpiecznie wróć na jej powierzchnię
+    ReachLowEarthOrbit_Title=Niska orbita okołoziemska
+    ReachLowEarthOrbit=Osiągnij niską orbitę wokół Ziemi i bezpiecznie wróć na jej powierzchnię
 
-    ReachHighEarthOrbit_Title=Osiągnij wysoką orbitę Ziemi
+    ReachHighEarthOrbit_Title=Wysoka orbita okołoziemska
     ReachHighEarthOrbit=Osiągnij wysoką orbitę Ziemi i bezpiecznie wróć na jej powierzchnię
 
     MoonOrbit_Title=Orbita Księżyca
-    MoonOrbit=Wejdź na niską orbitę Księżyca i wróć bezpiecznie
+    MoonOrbit=Wejdź na niską orbitę Księżyca i wróć na Ziemię
 
     MoonTour_Title=Wyprawa Księżycowa
-    MoonTour=Wyląduj na 3 różnych miejscach na Księżycu i wróć
+    MoonTour=Wyląduj nieopodal 3 różnych miejsc na Księżycu i wróć na Ziemię
 
     AsteroidImpact_Title=Uderzenie w asteroidę
     AsteroidImpact=Uderz w powierzchnię przechwyconej asteroidy z prędkością powyżej 200 m/s
@@ -787,7 +787,7 @@
 [Achievements]
     Reached_Height=Osiągnięto wysokość %height%
     Reached_Karman_Line=Przekroczono linię Karmana – opuszczono atmosferę, osiągnięto kosmos
-    Survived_Reentry=Zaliczono wejście w atmosferę %planet{3}%, maks. temperatura %temperature%
+    Survived_Reentry=Zaliczono wejście w atmosferę %planet{1}%, maks. temperatura %temperature%
 
     Reached_Low_Orbit=Osiągnięto niską orbitę wokół %planet{1}%
     Reached_High_Orbit=Osiągnięto wysoką orbitę wokół %planet{1}%
